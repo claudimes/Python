@@ -1,0 +1,5 @@
+print ('================= Desafio 26 =================')
+frase = str(input('Digite uma Frase: ')).upper().strip()
+print(f'A Letra A aparece {frase.count("A")} vezes na frase.')
+print(f'A primeira letra A apareceu na posição {frase.find("A") + 1}')
+print(f'A ultima letra A apareceu na posição {frase.rfind("A") + 1}')

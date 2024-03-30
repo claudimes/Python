@@ -1,0 +1,5 @@
+print ('================= Desafio 6 =================')
+numero = int(input('Digite um numero: '))
+print (f'O Dobro do número {numero} é: {numero * 2}.')
+print (f'O Triplo do número {numero} é: {numero * 3}.')
+print (f'A Raiz Quadrada do número {numero} é: {numero ** (1/2) :.2f}.')

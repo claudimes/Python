@@ -28,6 +28,7 @@ curso = Curso()
 curso.setNome('Engenharia de Software')
 
 aluno = Aluno()
-#aluno.setCurso(curso)
+aluno.setCurso(curso)
 
 print(aluno.getNomeCurso())
+

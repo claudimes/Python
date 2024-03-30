@@ -1,0 +1,5 @@
+print ('================= Desafio 11 =================')
+largura = float(input('Digite a Largura da parede: '))
+altura = float(input('Digite a Altura da parede: '))
+print(f'A Area da Parede é: {largura * altura} m2.')
+print(f'A Quantidade necessaria para pinta-la será de: {(largura * altura) / 2} lts de tinta.')
